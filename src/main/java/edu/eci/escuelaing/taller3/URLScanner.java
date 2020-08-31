@@ -1,4 +1,4 @@
-package edu.eci.escuelaing.taller_3;
+package edu.eci.escuelaing.taller3;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -22,7 +22,7 @@ public class URLScanner {
 //	}
 
 	public static void main(String[] args) throws Exception {
-		readURL("https://arep-taller-2.herokuapp.com/");
+		readURL("https://ldbn.is.escuelaing.edu.co/images/FotoLuisDanielBenavidesNavarro.jpg");
 //		readURL("https://i.pinimg.com/originals/3f/00/cc/3f00cc399f4e22450940055307ed6864.jpg");
 		//readURL("https://ldbn.is.escuelaing.edu.co/");
 	}
