@@ -1,8 +1,8 @@
-# Título del Proyecto
+# Tï¿½tulo del Proyecto
 
-Talller 1 - AREP 
+Taller 3 - AREP 
 
-Introduction To Computer System Design
+Clientes y Servicios
 
  [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-taller-2.herokuapp.com/)
  
@@ -12,7 +12,7 @@ Introduction To Computer System Design
 
 ## Comenzando 
 
-Revise el archivo [Descripción](https://github.com/JuanCe11/AREP-Taller-Heroku/blob/master/Taller_2_AREP.pdf) para tener informacion básica del problema y la solución propuesta.
+Revise el archivo [Descripciï¿½n](https://github.com/JuanCe11/AREP-Taller-Heroku/blob/master/Taller_2_AREP.pdf) para tener informacion bï¿½sica del problema y la soluciï¿½n propuesta.
 
 Para tener una copia del repositorio, desde consola ejecute el siguiente comando.
 
@@ -27,9 +27,9 @@ git clone https://github.com/JuanCe11/AREP-Taller-Heroku.git
 - Maven - [How install](https://maven.apache.org/install.html)
 
 
-### Instalación 
+### Instalaciï¿½n 
 
-Para la correcta instalación se debe primero clonar el repositorio como se indicó anteriormente, después se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
+Para la correcta instalaciï¿½n se debe primero clonar el repositorio como se indicï¿½ anteriormente, despuï¿½s se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
 
 ```
 cd AREP-Taller-Heroku
@@ -63,29 +63,29 @@ mvn test
 
 ### Analice las pruebas end-to-end 
 
-Las pruebas propuestas están enfocadas a la clase _Calculator_ pero al probar las funcionalidades de esta clase se están utilizando todas las clases de la solución.
+Las pruebas propuestas estï¿½n enfocadas a la clase _Calculator_ pero al probar las funcionalidades de esta clase se estï¿½n utilizando todas las clases de la soluciï¿½n.
 
-Se está probando que el lector de archivos funcione para obtener los datos, se crea la lista encadenada y se le agregan los nodos con los valores que se obtuvieron de los archivos.
+Se estï¿½ probando que el lector de archivos funcione para obtener los datos, se crea la lista encadenada y se le agregan los nodos con los valores que se obtuvieron de los archivos.
 
 
 ## Construido con 
 
 * [Java 8](https://www.java.com/es/about/whatis_java.jsp)
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [Spark Java](http://sparkjava.com/) - Framework de aplicación web.
+* [Spark Java](http://sparkjava.com/) - Framework de aplicaciï¿½n web.
 
 
 ## Wiki
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/JuanCe11/AREP-Taller-Heroku/wiki)
+Puedes encontrar mucho mï¿½s de cï¿½mo utilizar este proyecto en nuestra [Wiki](https://github.com/JuanCe11/AREP-Taller-Heroku/wiki)
 
 
 ## Autores 
 
-* **Juan Sebastia Gómez López** - *Trabajo Inicial* - [JuanCe11](https://github.com/JuanCe11)
+* **Juan Sebastia Gï¿½mez Lï¿½pez** - *Trabajo Inicial* - [JuanCe11](https://github.com/JuanCe11)
 
 
 ## Licencia
 
-Este proyecto está bajo la Licencia GNU General Public License - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles
+Este proyecto estï¿½ bajo la Licencia GNU General Public License - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles
 

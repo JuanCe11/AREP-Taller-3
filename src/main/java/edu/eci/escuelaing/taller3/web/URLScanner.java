@@ -1,36 +1,35 @@
-package edu.eci.escuelaing.taller3;
+package edu.eci.escuelaing.taller3.web;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Reads an reasponse from the server
+ */
 public class URLScanner {
-//	public static void main(String[] args) {
-//		scanURL("https://ldbn.is.escuelaing.edu.co/");
-//		scanURL("https://ldbn.is.escuelaing.edu.co:8080/");
-//	}
 
 	public static void main(String[] args) throws Exception {
 		readURL("https://ldbn.is.escuelaing.edu.co/images/FotoLuisDanielBenavidesNavarro.jpg");
-//		readURL("https://i.pinimg.com/originals/3f/00/cc/3f00cc399f4e22450940055307ed6864.jpg");
-		//readURL("https://ldbn.is.escuelaing.edu.co/");
+		scanURL("https://ldbn.is.escuelaing.edu.co/images/FotoLuisDanielBenavidesNavarro.jpg");
 	}
 
-	@SuppressWarnings("unused")
-	private static void scanURL(String site) {
+	/**
+	 * Scan the response header
+	 * 
+	 * @param as_site url to read
+	 */
+	private static void scanURL(String as_site) {
 		try {
-			URL url = new URL(site);
+			URL url = new URL(as_site);
 			System.out.println("Protocol: " + url.getProtocol());
 			System.out.println("Host: " + url.getHost());
 			System.out.println("Port: " + url.getPort());
@@ -40,21 +39,19 @@ public class URLScanner {
 		}
 	}
 
-	private static void readURL(String site) {
+	/**
+	 * Reads an reasponse from the server
+	 * 
+	 * @param as_site url to read
+	 */
+	private static void readURL(String as_site) {
 		try {
-			URL siteURL = new URL(site);
-			// Crea el objeto que representa una URL
-			// Crea el objeto que URLConnection
+			URL siteURL = new URL(as_site);
 			URLConnection urlConnection = siteURL.openConnection();
-			// Obtiene los campos del encabezado y los almacena en un estructura Map
 			Map<String, List<String>> headers = urlConnection.getHeaderFields();
-			// Obtiene una vista del mapa como conjunto de pares <K,V>
-			// para poder navegarlo10
 			Set<Map.Entry<String, List<String>>> entrySet = headers.entrySet();
-			// Recorre la lista de campos e imprime los valores
 			for (Map.Entry<String, List<String>> entry : entrySet) {
 				String headerName = entry.getKey();
-				// Si el nombre es nulo, significa que es la linea de estado
 				if (headerName != null) {
 					System.out.print(headerName + ":");
 				}
@@ -63,7 +60,6 @@ public class URLScanner {
 					System.out.print(value);
 				}
 				System.out.println("");
-				// System.out.println("");
 			}
 			System.out.println("------------SEPARADOR----------");
 			BufferedReader reader = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));

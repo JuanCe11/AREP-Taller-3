@@ -9,12 +9,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Applegothic;
+	font-family: Century Gothic;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Applegothic;
+	font-family: Century Gothic;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Applegothic;
+	font-family: Century Gothic;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -150,7 +150,7 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: Applegothic;
+  font-family: Century Gothic;
   font-weight: 700;
   font-size: 24px;
   color: #333333;
@@ -172,7 +172,7 @@ iframe {
 }
 
 .input100 {
-  font-family: Applegothic;
+  font-family: Century Gothic;
   font-weight: 700;
   font-size: 15px;
   line-height: 1.5;
@@ -266,7 +266,7 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Applegothic;
+  font-family: Century Gothic;
   font-weight: 700;
   font-size: 15px;
   line-height: 1.5;
@@ -362,7 +362,7 @@ iframe {
   right: 8px;
   pointer-events: none;
 
-  font-family: Applegothic;
+  font-family: Century Gothic;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -379,7 +379,7 @@ iframe {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: Applegothic;
+  font-family: Century Gothic;
   display: block;
   position: absolute;
   color: #c80000;
