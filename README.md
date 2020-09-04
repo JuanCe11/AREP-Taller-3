@@ -1,4 +1,4 @@
-# T�tulo del Proyecto
+# Título del Proyecto
 
 Taller 3 - AREP 
 
@@ -12,7 +12,7 @@ Clientes y Servicios
 
 ## Comenzando 
 
-Revise el archivo [Descripci�n](https://github.com/JuanCe11/AREP-Taller-Heroku/blob/master/Taller_3_AREP.pdf) para tener informacion b�sica del problema y la soluci�n propuesta.
+Revise el archivo [Descripción](https://github.com/JuanCe11/AREP-Taller-3/blob/master/Taller_3_AREP.pdf) para tener informacion basica del problema y la solucion propuesta.
 
 Para tener una copia del repositorio, desde consola ejecute el siguiente comando.
 
@@ -27,9 +27,9 @@ git clone https://github.com/JuanCe11/AREP-Taller-3.git
 - Maven - [How install](https://maven.apache.org/install.html)
 
 
-### Instalaci�n 
+### Instalacion 
 
-Para la correcta instalaci�n se debe primero clonar el repositorio como se indic� anteriormente, despu�s se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
+Para la correcta instalacion se debe primero clonar el repositorio como se indico anteriormente, despues se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
 
 ```
 cd AREP-Taller-3
@@ -61,13 +61,6 @@ Ahora para ejecutar los test se utiliza el comando:
 mvn test
 ```
 
-### Analice las pruebas end-to-end 
-
-Las pruebas propuestas est�n enfocadas a la clase _Calculator_ pero al probar las funcionalidades de esta clase se est�n utilizando todas las clases de la soluci�n.
-
-Se est� probando que el lector de archivos funcione para obtener los datos, se crea la lista encadenada y se le agregan los nodos con los valores que se obtuvieron de los archivos.
-
-
 ## Construido con 
 
 * [Java 8](https://www.java.com/es/about/whatis_java.jsp)
@@ -77,15 +70,15 @@ Se est� probando que el lector de archivos funcione para obtener los datos, se
 
 ## Wiki
 
-Puedes encontrar mucho m�s de c�mo utilizar este proyecto en nuestra [Wiki](https://github.com/JuanCe11/AREP-Taller-Heroku/wiki)
+Puedes encontrar mucho mas de camo utilizar este proyecto en nuestra [Wiki](https://github.com/JuanCe11/AREP-Taller-3/wiki)
 
 
 ## Autores 
 
-* **Juan Sebastia G�mez L�pez** - *Trabajo Inicial* - [JuanCe11](https://github.com/JuanCe11)
+* **Juan Sebastia Gomez Lopez** - *Trabajo Inicial* - [JuanCe11](https://github.com/JuanCe11)
 
 
 ## Licencia
 
-Este proyecto est� bajo la Licencia GNU General Public License - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles
+Este proyecto esta bajo la Licencia GNU General Public License - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles
 
