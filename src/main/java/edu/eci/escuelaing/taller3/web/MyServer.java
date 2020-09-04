@@ -65,9 +65,22 @@ public class MyServer {
 	 * Default class creator
 	 */
 	public MyServer() {
-		ii_port = 36000;
+		ii_port = genPort();
 		ihm_services = new HashMap<String, Function>();
 		ib_running = false;
+	}
+	
+	/**
+	 * Get default port to run 
+	 * 
+	 * @return the default port 
+	 */
+	public int genPort() {
+		if (System.getenv("PORT") != null)
+		{            
+			return Integer.parseInt(System.getenv("PORT"));      
+		} 
+		return 123; 
 	}
 
 	/**
