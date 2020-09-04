@@ -80,7 +80,7 @@ public class MyServer {
 		{            
 			return Integer.parseInt(System.getenv("PORT"));      
 		} 
-		return 123; 
+		return 1234; 
 	}
 
 	/**

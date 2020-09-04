@@ -4,20 +4,20 @@ Taller 3 - AREP
 
 Clientes y Servicios
 
- [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-taller-2.herokuapp.com/)
+ [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-taller-3.herokuapp.com/)
  
- [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/JuanCe11/AREP-Taller-Heroku)
+ [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/JuanCe11/AREP-Taller-3)
 
  
 
 ## Comenzando 
 
-Revise el archivo [Descripci�n](https://github.com/JuanCe11/AREP-Taller-Heroku/blob/master/Taller_2_AREP.pdf) para tener informacion b�sica del problema y la soluci�n propuesta.
+Revise el archivo [Descripci�n](https://github.com/JuanCe11/AREP-Taller-Heroku/blob/master/Taller_3_AREP.pdf) para tener informacion b�sica del problema y la soluci�n propuesta.
 
 Para tener una copia del repositorio, desde consola ejecute el siguiente comando.
 
 ```
-git clone https://github.com/JuanCe11/AREP-Taller-Heroku.git
+git clone https://github.com/JuanCe11/AREP-Taller-3.git
 ```
 
 ### Pre-requisitos 
@@ -32,22 +32,22 @@ git clone https://github.com/JuanCe11/AREP-Taller-Heroku.git
 Para la correcta instalaci�n se debe primero clonar el repositorio como se indic� anteriormente, despu�s se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
 
 ```
-cd AREP-Taller-Heroku
+cd AREP-Taller-3
 mvn package
-java -cp target/classes;target/dependency/* edu.escuelaing.arep.web.App
+java -cp target/classes:target/dependency/* edu.eci.escuelaing.taller3.Application
 ```
 Para sistemas linux usar: 
 
 ```
-cd AREP-Taller-Heroku
+cd AREP-Taller-3
 mvn package
-java -cp target/classes:target/dependency/* edu.escuelaing.arep.web.App
+java -cp target/classes:target/dependency/* edu.eci.escuelaing.taller3.Application
 ```
-Cuando se tenga el servicio corriendo se ingresa a la direccion http://localhost:4567/ para ver el el servicio en el navegador.
+Cuando se tenga el servicio corriendo se ingresa a la direccion http://localhost:1234/ para ver el el servicio en el navegador.
 
 Puede revisar las fuentes del proyecto revisar a detalle los test.
 
-Puede generar la docuementacion usando:
+Puede generar la documentacion usando:
 
 ```
 mvn javadoc:javadoc
