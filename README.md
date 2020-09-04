@@ -34,7 +34,7 @@ Para la correcta instalacion se debe primero clonar el repositorio como se indic
 ```
 cd AREP-Taller-3
 mvn package
-java -cp target/classes:target/dependency/* edu.eci.escuelaing.taller3.Application
+java -cp target/classes;target/dependency/* edu.eci.escuelaing.taller3.Application
 ```
 Para sistemas linux usar: 
 
